@@ -8,8 +8,10 @@ const HeaderArea = () => {
     const [isOpenu,setisOpenu] = useState(false)
     const [notifications,setNotifications] = useState(0)
 
+
     const toggleu= () => {setisOpenu(!isOpenu)}
     const togglen= () => {setisOpenn(!isOpenn)}
+    setNotifications(0)
 
 return (
 <div className='header d-flex align-items-center justify-content-end m-4'>
